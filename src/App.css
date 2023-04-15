@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #3367d6;
+  width: 100%;
+  height: 30%;
+  background-size: cover;
+}
+.history-img {
+  display: flex;
+  justify-content: flex-start;
+}
+.appLogo {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.search-history {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.searchLogoBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #6697ff;
+  background-color: #2850a7;
+  margin-left: 100px;
+}
+.searchImg {
+  width: 20px;
+  height: 20px;
+}
+.searchInputBar {
+  width: 500px;
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #6697ff;
+  background-color: #2850a7;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.browser-history-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.browser-history-card {
+  width: 90%;
+  box-shadow: 0px 1px 2px 0px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+}
+.history-cards {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.Empty-history-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  color: #475569;
+}
